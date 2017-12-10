@@ -14,5 +14,8 @@ From a lazy man with severe delusion.
    其中最令我惊奇的是该例子中readme-edits分支（branch）与master（repository主介质）的比较部分，直观的看到了在该副本中我做的modify。不禁，如果在处理一个大project的时候，我们就不是基于主介质创建branch，而是基于自己（他人）先前就创建好的branch副本。这样我们就可以在Merge pull request时在不影响主介质的前提下，将自己的修改保存在一个等级较低的副本中，非常安全。
    
    Take for an example 举个例子，之前我在master主介质的基础上建立了readme-edits副本分支，现在我又在readme-edits副本分支的基础上又建立了名为readme-edits #2 的branch(has been deleted)。当我这次在最后Merge pull request的时候，通过选择被对比branch（前者）为readme-edits，同时对比branch（后者）为readme-edits #2，就只会更改readme-edits副本。现在来验证我的猜想吧！
+   
+   关于commit changes栏的理解，这个功能可以看做 对于某文本进行的一系列修改的记录。比如目前我在写的这部分文字，在我编辑完文字后，我会在commit changes栏下的Add an optional extended description中描述自己这次修改的目的（添加自己对commit changes栏的理解）。
+   
 
   WeifanWong added at 2017.12.07 7:34
